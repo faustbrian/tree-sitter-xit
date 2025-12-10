@@ -1,0 +1,34 @@
+==================
+Scheduled date full
+==================
+
+[ ] scheduled:2025-12-15 Complete project
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (scheduled_date)
+          (text))))))
+
+==================
+Due and scheduled
+==================
+
+[ ] -> 2025-12-20 scheduled:2025-12-15 Finish before deadline
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (due_date)
+          (scheduled_date)
+          (text))))))

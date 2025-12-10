@@ -1,0 +1,34 @@
+==================
+Linear issue basic
+==================
+
+[ ] linear:/shipit-oy-ab/DEVELOP-217 Task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (external_issue)
+          (text))))))
+
+==================
+Linear with task ID
+==================
+
+[ ] @API.1 linear:/acme-corp/ENG-456 Task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (external_issue)
+          (text))))))

@@ -1,0 +1,17 @@
+==================
+Estimate and spent
+==================
+
+[@] ~3h :2h Task
+
+---
+
+(document
+  (task
+    (ongoing_task
+      (ongoing_checkbox)
+      (description
+        (main_line
+          (time_estimate)
+          (time_spent)
+          (text))))))

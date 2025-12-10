@@ -1,0 +1,37 @@
+==================
+Simple comment
+==================
+
+// This is a comment
+[ ] Task
+
+---
+
+(document
+  (comment)
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text))))))
+
+==================
+Multiple comments
+==================
+
+// First comment
+// Second comment
+[ ] Task after comments
+
+---
+
+(document
+  (comment)
+  (comment)
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text))))))

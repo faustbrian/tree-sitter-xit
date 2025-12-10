@@ -1,0 +1,16 @@
+==================
+GitHub issue basic
+==================
+
+[ ] gh:anthropics/claude#123 Task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (external_issue)
+          (text))))))

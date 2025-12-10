@@ -1,0 +1,35 @@
+==================
+Single child reference
+==================
+
+[ ] @PARENT child:PARENT.1 Parent task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (child_reference)
+          (text))))))
+
+==================
+Multiple children
+==================
+
+[ ] @PROJECT child:PROJECT.1,PROJECT.2,PROJECT.3 Multi child
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (child_reference)
+          (text))))))

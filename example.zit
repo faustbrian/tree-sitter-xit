@@ -1,0 +1,159 @@
+Basic Tasks
+[ ] @A Simple task with ID
+[x] @B Completed task
+[@] @C Ongoing work
+[~] @D Obsolete item
+[?] @E Questioned task
+[!] @F Blocked task
+[>] @G Delegated task
+[*] @H In review task
+
+Time Tracking
+[ ] @TIME.1 ~2h Estimated 2 hours
+[x] @TIME.2 :1.5h Took 1.5 hours
+[@] @TIME.3 ~3h :2h In progress (2h of 3h done)
+[ ] @TIME.4 ~30m Quick task
+[ ] @TIME.5 ~2d Multi-day project
+
+Progress Tracking
+[ ] @FEAT.1 0/5 Not started yet
+[@] @FEAT.2 2/5 Partially complete
+[x] @FEAT.3 5/5 All done
+
+External Issue Tracking
+[ ] linear:/shipit-oy-ab/DEVELOP-217 Linear issue integration
+[ ] jira:PROJECT-456 Jira ticket reference
+[ ] gh:anthropics/claude#123 GitHub issue link
+[ ] gh:faustbrian/tree-sitter-zit#74eef80 GitHub commit hash (short)
+[ ] gh:faustbrian/tree-sitter-zit#74eef808a3a77df1ba1acdb38d9e4e1f835dc0c3 GitHub commit (full)
+[ ] @ISSUE.1 linear:/acme-corp/ENG-789 Combined task ID with Linear
+
+Links
+[ ] https://example.com Documentation
+[ ] file:///path/to/document.pdf Local file
+[ ] attach://meeting-notes.md Attachment reference
+[ ] ssh://server.com/repo.git SSH repository
+[ ] ftp://files.example.com/data FTP server
+[ ] mailto://support@example.com Email link
+[ ] git://github.com/user/repo.git Git protocol
+[ ] ws://localhost:8080/socket WebSocket
+[ ] wss://secure.example.com/socket Secure WebSocket
+
+Dependencies
+[ ] @SETUP -> blocks:IMPL,TEST Setup blocks implementation and testing
+[ ] @IMPL -> depends:SETUP Implementation depends on setup
+[ ] @TEST -> depends:IMPL Testing depends on implementation
+
+Assignees
+[ ] @UI.1 -> assigned:alice UI mockups for Alice
+[ ] @API.1 -> assigned:bob,charlie API work for Bob and Charlie
+[ ] @REVIEW -> assigned:team Team review needed
+
+Recurring Tasks
+[ ] ~every:mon Weekly standup
+[ ] ~every:mon,fri Monday and Friday sync
+[ ] ~daily Daily notes
+[ ] ~monthly:1st First of month report
+[ ] ~monthly:15th Mid-month review
+[ ] ~yearly:2025-12-31 Annual planning
+
+Date Ranges
+[ ] -> 2025-03-15..2025-03-17 Conference attendance
+[ ] -> 2025-Q1..2025-Q2 Half-year project
+[ ] -> 2025-01..2025-03 Quarter span
+
+Priorities with Zit Features
+[ ] @CRIT.1 !! ~1h Critical bug fix
+[ ] @TASK.1 ! ~2h Important feature
+[ ] @MINOR.1 ... ~30m Low priority cleanup
+[ ] @P1.1 !p1 Highest priority task
+[ ] @P2.1 !p2 Medium priority task
+
+Combined Features
+Sprint 23 #sprint=23
+
+[ ] @AUTH.1 ~5h -> assigned:alice User authentication #epic=auth #points=8
+    OAuth2 integration with Google
+    JWT token implementation
+    Session management
+[@] @AUTH.2 2/3 ~3h :2h -> assigned:bob Password reset flow #epic=auth #points=5
+    Email template design
+    Reset token generation
+    Expiry handling
+[x] @BUG.1 :45m Fixed login redirect #bug #severity=high
+[ ] @DEPLOY.1 0/3 !! ~4h -> blocks:DEPLOY.2 -> assigned:ops Production checklist #deployment
+    Database migrations
+    Feature flags setup
+    Monitoring configuration
+
+Hierarchical Tasks
+[ ] @PROJECT Parent project
+[ ] @PROJECT.1 First subtask
+[ ] @PROJECT.1.1 Nested subtask
+[ ] @PROJECT.1.2 Another nested task
+[ ] @PROJECT.2 Second subtask
+[ ] @PROJECT.2.1 Deep nesting
+[ ] @PROJECT.2.1.1 Even deeper
+
+Real-World Example
+Website Redesign #project=website #year=2025
+
+[ ] @DESIGN ~2d -> assigned:alice -> 2025-03-01..2025-03-02 Design mockups #design #phase=1
+    Homepage redesign
+    Navigation updates
+    Color scheme selection
+[@] @FRONTEND 3/5 ~5d :3d -> depends:DESIGN -> assigned:bob Frontend implementation #frontend #phase=2
+    React components
+    Responsive layout
+    Animation system
+[ ] @BACKEND ~3d -> depends:FRONTEND -> assigned:charlie,diana API updates #backend #phase=2
+[ ] @TEST 0/10 ~2d -> depends:BACKEND -> assigned:team Testing phase #qa #phase=3
+[?] @PERF ~1d Performance optimization #optional
+[~] @LEGACY Old design cleanup #deprecated
+
+Maintenance Tasks
+[ ] ~every:mon,wed,fri Deploy to staging #devops
+[ ] ~monthly:1st Update dependencies #maintenance
+[ ] ~yearly:2025-06-01 Annual security audit #security
+
+Context Tags
+[ ] Fix login bug +mobile +urgent
+[ ] API migration +backend +database
+[ ] Documentation update +docs +website +low-priority
+
+New Features Showcase
+
+// Feature 1: Numeric Priority Levels
+[ ] @P1 !p1 Highest priority item
+[ ] @P5 !p5 Medium priority item
+[ ] @P10 !p10 Lower priority item
+
+// Feature 2: Extended Task Statuses
+[!] @BLOCKED Waiting for external API approval
+[>] @DELEGATED Task assigned to external team
+[*] @REVIEW Code review in progress
+
+// Feature 3: Context Tags (already shown above)
+
+// Feature 4: Scheduled Dates
+[ ] @MEET.1 scheduled:2025-12-15 Team meeting
+[ ] @RELEASE scheduled:2025-Q1 Quarterly release
+[ ] @ANNUAL scheduled:2025 Annual review
+
+// Feature 5: Child References
+[ ] @PARENT Parent task child:SUBTASK.1,SUBTASK.2
+[ ] @SUBTASK.1 First child task
+[ ] @SUBTASK.2 Second child task
+
+// Feature 6: Inline Comments (shown throughout)
+
+// Feature 7: Effort Estimation
+[ ] @STORY.1 effort:XS Quick fix
+[ ] @STORY.2 effort:M Medium feature
+[ ] @STORY.3 effort:XXL Large migration
+[ ] @EPIC.1 points:13 Large epic
+
+// Feature 8: Custom Metadata
+[ ] @CONFIG meta:env=prod meta:region=us-east Production deployment
+[ ] @TASK.1 meta:author="Alice" meta:version=2 Task with metadata
+[ ] @BUILD meta:target='linux' Build for specific target

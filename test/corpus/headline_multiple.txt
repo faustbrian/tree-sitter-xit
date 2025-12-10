@@ -1,0 +1,29 @@
+==================
+Multiple headlines
+==================
+
+Section One
+
+[ ] Task 1
+
+Section Two
+
+[ ] Task 2
+
+---
+
+(document
+  (headline)
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)))))
+  (headline)
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text))))))

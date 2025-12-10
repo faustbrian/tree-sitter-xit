@@ -1,0 +1,15 @@
+==================
+In question checkbox
+==================
+
+[?] Questioned task
+
+---
+
+(document
+  (task
+    (in_question_task
+      (in_question_checkbox)
+      (description
+        (main_line
+          (text))))))

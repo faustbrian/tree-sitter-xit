@@ -1,0 +1,28 @@
+==================
+Empty checkboxes
+==================
+
+[ ]
+[x]
+[@]
+[~]
+[?]
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)))
+  (task
+    (checked_task
+      (checked_checkbox)))
+  (task
+    (ongoing_task
+      (ongoing_checkbox)))
+  (task
+    (obsolete_task
+      (obsolete_checkbox)))
+  (task
+    (in_question_task
+      (in_question_checkbox))))

@@ -1,0 +1,47 @@
+==================
+Blocked task
+==================
+
+[!] Waiting on external dependency
+
+---
+
+(document
+  (task
+    (blocked_task
+      (blocked_checkbox)
+      (description
+        (main_line
+          (text))))))
+
+==================
+Delegated task
+==================
+
+[>] Assigned to team member
+
+---
+
+(document
+  (task
+    (delegated_task
+      (delegated_checkbox)
+      (description
+        (main_line
+          (text))))))
+
+==================
+In review task
+==================
+
+[*] Code review pending
+
+---
+
+(document
+  (task
+    (in_review_task
+      (in_review_checkbox)
+      (description
+        (main_line
+          (text))))))

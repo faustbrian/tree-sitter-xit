@@ -1,0 +1,557 @@
+[
+  {
+    "type": "blocked_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "blocked_checkbox",
+          "named": true
+        },
+        {
+          "type": "description",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "checked_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "checked_checkbox",
+          "named": true
+        },
+        {
+          "type": "description",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "content_line",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "assignee",
+          "named": true
+        },
+        {
+          "type": "child_reference",
+          "named": true
+        },
+        {
+          "type": "context_tag",
+          "named": true
+        },
+        {
+          "type": "date_range",
+          "named": true
+        },
+        {
+          "type": "dependency",
+          "named": true
+        },
+        {
+          "type": "due_date",
+          "named": true
+        },
+        {
+          "type": "effort_estimate",
+          "named": true
+        },
+        {
+          "type": "external_issue",
+          "named": true
+        },
+        {
+          "type": "link",
+          "named": true
+        },
+        {
+          "type": "metadata",
+          "named": true
+        },
+        {
+          "type": "progress",
+          "named": true
+        },
+        {
+          "type": "recurrence",
+          "named": true
+        },
+        {
+          "type": "scheduled_date",
+          "named": true
+        },
+        {
+          "type": "tag",
+          "named": true
+        },
+        {
+          "type": "task_id",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "time_estimate",
+          "named": true
+        },
+        {
+          "type": "time_spent",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "delegated_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "delegated_checkbox",
+          "named": true
+        },
+        {
+          "type": "description",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "description",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "indent",
+          "named": true
+        },
+        {
+          "type": "main_line",
+          "named": true
+        },
+        {
+          "type": "priority",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "document",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "headline",
+          "named": true
+        },
+        {
+          "type": "task",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "headline",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "in_question_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "in_question_checkbox",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "in_review_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "in_review_checkbox",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "indent",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "content_line",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "main_line",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "assignee",
+          "named": true
+        },
+        {
+          "type": "child_reference",
+          "named": true
+        },
+        {
+          "type": "context_tag",
+          "named": true
+        },
+        {
+          "type": "date_range",
+          "named": true
+        },
+        {
+          "type": "dependency",
+          "named": true
+        },
+        {
+          "type": "due_date",
+          "named": true
+        },
+        {
+          "type": "effort_estimate",
+          "named": true
+        },
+        {
+          "type": "external_issue",
+          "named": true
+        },
+        {
+          "type": "link",
+          "named": true
+        },
+        {
+          "type": "metadata",
+          "named": true
+        },
+        {
+          "type": "progress",
+          "named": true
+        },
+        {
+          "type": "recurrence",
+          "named": true
+        },
+        {
+          "type": "scheduled_date",
+          "named": true
+        },
+        {
+          "type": "tag",
+          "named": true
+        },
+        {
+          "type": "task_id",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "time_estimate",
+          "named": true
+        },
+        {
+          "type": "time_spent",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "obsolete_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "obsolete_checkbox",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "ongoing_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "ongoing_checkbox",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "open_task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "open_checkbox",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "priority",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "task",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "blocked_task",
+          "named": true
+        },
+        {
+          "type": "checked_task",
+          "named": true
+        },
+        {
+          "type": "delegated_task",
+          "named": true
+        },
+        {
+          "type": "in_question_task",
+          "named": true
+        },
+        {
+          "type": "in_review_task",
+          "named": true
+        },
+        {
+          "type": "obsolete_task",
+          "named": true
+        },
+        {
+          "type": "ongoing_task",
+          "named": true
+        },
+        {
+          "type": "open_task",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "text",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "\n",
+    "named": false
+  },
+  {
+    "type": " ",
+    "named": false
+  },
+  {
+    "type": "//",
+    "named": false
+  },
+  {
+    "type": "assignee",
+    "named": true
+  },
+  {
+    "type": "blocked_checkbox",
+    "named": true
+  },
+  {
+    "type": "checked_checkbox",
+    "named": true
+  },
+  {
+    "type": "child_reference",
+    "named": true
+  },
+  {
+    "type": "context_tag",
+    "named": true
+  },
+  {
+    "type": "date_range",
+    "named": true
+  },
+  {
+    "type": "delegated_checkbox",
+    "named": true
+  },
+  {
+    "type": "dependency",
+    "named": true
+  },
+  {
+    "type": "due_date",
+    "named": true
+  },
+  {
+    "type": "effort_estimate",
+    "named": true
+  },
+  {
+    "type": "external_issue",
+    "named": true
+  },
+  {
+    "type": "in_question_checkbox",
+    "named": true
+  },
+  {
+    "type": "in_review_checkbox",
+    "named": true
+  },
+  {
+    "type": "link",
+    "named": true
+  },
+  {
+    "type": "metadata",
+    "named": true
+  },
+  {
+    "type": "obsolete_checkbox",
+    "named": true
+  },
+  {
+    "type": "ongoing_checkbox",
+    "named": true
+  },
+  {
+    "type": "open_checkbox",
+    "named": true
+  },
+  {
+    "type": "progress",
+    "named": true
+  },
+  {
+    "type": "recurrence",
+    "named": true
+  },
+  {
+    "type": "scheduled_date",
+    "named": true
+  },
+  {
+    "type": "tag",
+    "named": true
+  },
+  {
+    "type": "task_id",
+    "named": true
+  },
+  {
+    "type": "time_estimate",
+    "named": true
+  },
+  {
+    "type": "time_spent",
+    "named": true
+  }
+]

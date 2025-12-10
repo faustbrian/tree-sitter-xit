@@ -1,0 +1,16 @@
+==================
+GitHub commit hash
+==================
+
+[ ] gh:faustbrian/tree-sitter-zit#e14bc16580811f345eac7fa848b9ad66723f9615 Link to commit
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (external_issue)
+          (text))))))

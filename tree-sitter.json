@@ -1,0 +1,13 @@
+{
+	"grammars": [
+		{
+			"name": "zit",
+			"scope": "source.zit",
+			"file-types": ["zit"],
+			"path": "."
+		}
+	],
+	"metadata": {
+		"version": "1.0.0"
+	}
+}

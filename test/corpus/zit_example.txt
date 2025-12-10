@@ -1,0 +1,46 @@
+==================
+Complete zit example
+==================
+
+Sprint 23
+
+[ ] @A ~2d Design mockups #design
+[@] @AUTH.1 2/5 ~5h User auth #epic=auth
+    OAuth2 integration
+
+[x] @BUG.1 Fixed login #bug
+
+---
+
+(document
+  (headline)
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (time_estimate)
+          (text)
+          (tag)))))
+  (task
+    (ongoing_task
+      (ongoing_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (progress)
+          (time_estimate)
+          (text)
+          (tag))
+        (indent
+          (content_line
+            (text))))))
+  (task
+    (checked_task
+      (checked_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (text)
+          (tag))))))

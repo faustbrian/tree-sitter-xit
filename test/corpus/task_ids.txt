@@ -1,0 +1,58 @@
+==================
+Simple task ID
+==================
+
+[ ] @A Task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (text))))))
+
+==================
+Hierarchical IDs
+==================
+
+[ ] @A.1 Subtask
+[ ] @A.1.1 Nested
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (text)))))
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (text))))))
+
+==================
+Alphanumeric IDs
+==================
+
+[ ] @AUTH1 Task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (text))))))

@@ -1,0 +1,19 @@
+==================
+Multiline description
+==================
+
+[ ] Task
+    Continuation
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text))
+        (indent
+          (content_line
+            (text)))))))

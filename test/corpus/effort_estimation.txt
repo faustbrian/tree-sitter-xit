@@ -1,0 +1,52 @@
+==================
+T-shirt size effort
+==================
+
+[ ] effort:M Medium task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (effort_estimate)
+          (text))))))
+
+==================
+Story points
+==================
+
+[ ] points:8 Eight point story
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (effort_estimate)
+          (text))))))
+
+==================
+Combined with time
+==================
+
+[ ] ~3h effort:L points:13 Large complex task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (time_estimate)
+          (effort_estimate)
+          (effort_estimate)
+          (text))))))

@@ -1,0 +1,15 @@
+==================
+Ongoing checkbox
+==================
+
+[@] In progress task
+
+---
+
+(document
+  (task
+    (ongoing_task
+      (ongoing_checkbox)
+      (description
+        (main_line
+          (text))))))

@@ -1,0 +1,16 @@
+==================
+Due date full
+==================
+
+[ ] Task -> 2025-12-31
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (due_date))))))

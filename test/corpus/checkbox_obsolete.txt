@@ -1,0 +1,15 @@
+==================
+Obsolete checkbox
+==================
+
+[~] Obsolete task
+
+---
+
+(document
+  (task
+    (obsolete_task
+      (obsolete_checkbox)
+      (description
+        (main_line
+          (text))))))

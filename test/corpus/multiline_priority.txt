@@ -1,0 +1,20 @@
+==================
+Multiline with priority
+==================
+
+[ ] ! Task
+    Continuation
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (priority)
+        (main_line
+          (text))
+        (indent
+          (content_line
+            (text)))))))

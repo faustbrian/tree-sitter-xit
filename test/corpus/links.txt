@@ -1,0 +1,52 @@
+==================
+HTTP link
+==================
+
+[ ] https://example.com link
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (link)
+          (text))))))
+
+==================
+Multiple protocols
+==================
+
+[ ] file://path/to/file attach://document.pdf ftp://server.com
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (link)
+          (link)
+          (link))))))
+
+==================
+Link with task ID
+==================
+
+[ ] @TASK.1 https://github.com/user/repo #web
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (task_id)
+          (link)
+          (tag))))))

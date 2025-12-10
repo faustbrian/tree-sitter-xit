@@ -1,0 +1,18 @@
+==================
+Multiple tags
+==================
+
+[ ] Task #a #b #c
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (tag)
+          (tag)
+          (tag))))))

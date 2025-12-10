@@ -1,0 +1,15 @@
+==================
+Checked checkbox
+==================
+
+[x] Completed task
+
+---
+
+(document
+  (task
+    (checked_task
+      (checked_checkbox)
+      (description
+        (main_line
+          (text))))))

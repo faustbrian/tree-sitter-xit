@@ -1,0 +1,51 @@
+==================
+Simple metadata
+==================
+
+[ ] meta:version=1 Task with version
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (metadata)
+          (text))))))
+
+==================
+Quoted metadata
+==================
+
+[ ] meta:author="John Doe" Task with author
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (metadata)
+          (text))))))
+
+==================
+Multiple metadata
+==================
+
+[ ] meta:env=prod meta:region=us-east Task with multiple meta
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (metadata)
+          (metadata)
+          (text))))))

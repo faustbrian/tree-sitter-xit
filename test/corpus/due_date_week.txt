@@ -1,0 +1,16 @@
+==================
+Due date week
+==================
+
+[ ] Task -> 2025-W52
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (due_date))))))

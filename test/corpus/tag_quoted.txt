@@ -1,0 +1,16 @@
+==================
+Tag with quoted value
+==================
+
+[ ] Task #key="quoted"
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (tag))))))

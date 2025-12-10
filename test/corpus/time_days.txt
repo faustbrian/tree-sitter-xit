@@ -1,0 +1,16 @@
+==================
+Time in days
+==================
+
+[ ] ~2d Task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (time_estimate)
+          (text))))))

@@ -1,0 +1,52 @@
+==================
+Simple context tag
+==================
+
+[ ] Fix bug +mobile
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (context_tag))))))
+
+==================
+Multiple context tags
+==================
+
+[ ] Implement feature +mobile +backend +urgent
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (context_tag)
+          (context_tag)
+          (context_tag))))))
+
+==================
+Context tag with value
+==================
+
+[ ] Deploy +env=production
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (context_tag))))))

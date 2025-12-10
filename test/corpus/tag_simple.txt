@@ -1,0 +1,16 @@
+==================
+Simple tag
+==================
+
+[ ] Task #tag
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (tag))))))

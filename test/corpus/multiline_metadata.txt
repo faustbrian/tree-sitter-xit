@@ -1,0 +1,21 @@
+==================
+Multiline with metadata
+==================
+
+[ ] Task #tag
+    More #data
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (text)
+          (tag))
+        (indent
+          (content_line
+            (text)
+            (tag)))))))

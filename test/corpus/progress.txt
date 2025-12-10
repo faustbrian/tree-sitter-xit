@@ -1,0 +1,50 @@
+==================
+Progress not started
+==================
+
+[ ] 0/5 Task
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (progress)
+          (text))))))
+
+==================
+Progress in progress
+==================
+
+[@] 2/5 Task
+
+---
+
+(document
+  (task
+    (ongoing_task
+      (ongoing_checkbox)
+      (description
+        (main_line
+          (progress)
+          (text))))))
+
+==================
+Progress completed
+==================
+
+[x] 5/5 Task
+
+---
+
+(document
+  (task
+    (checked_task
+      (checked_checkbox)
+      (description
+        (main_line
+          (progress)
+          (text))))))

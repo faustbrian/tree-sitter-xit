@@ -1,0 +1,16 @@
+==================
+GitHub short commit hash
+==================
+
+[ ] gh:faustbrian/tree-sitter-zit#e14bc16 Short hash
+
+---
+
+(document
+  (task
+    (open_task
+      (open_checkbox)
+      (description
+        (main_line
+          (external_issue)
+          (text))))))

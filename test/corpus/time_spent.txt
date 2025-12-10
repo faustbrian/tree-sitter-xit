@@ -1,0 +1,16 @@
+==================
+Time spent
+==================
+
+[x] :1.5h Task
+
+---
+
+(document
+  (task
+    (checked_task
+      (checked_checkbox)
+      (description
+        (main_line
+          (time_spent)
+          (text))))))
